@@ -15,6 +15,8 @@
 		BFB80C7A2192ECDB0023EB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80C792192ECDB0023EB61 /* main.m */; };
 		BFB80C842192ECDB0023EB61 /* OpenGL_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80C832192ECDB0023EB61 /* OpenGL_demoTests.m */; };
 		BFB80C8F2192ECDB0023EB61 /* OpenGL_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80C8E2192ECDB0023EB61 /* OpenGL_demoUITests.m */; };
+		BFB80C9F2192EE360023EB61 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80C9E2192EE360023EB61 /* BaseController.m */; };
+		BFB80CA22192EFB40023EB61 /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80CA12192EFB40023EB61 /* OneController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		BFB80C8A2192ECDB0023EB61 /* OpenGL_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGL_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB80C8E2192ECDB0023EB61 /* OpenGL_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_demoUITests.m; sourceTree = "<group>"; };
 		BFB80C902192ECDB0023EB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB80C9D2192EE360023EB61 /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		BFB80C9E2192EE360023EB61 /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		BFB80CA02192EFB40023EB61 /* OneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
+		BFB80CA12192EFB40023EB61 /* OneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 				BFB80C6B2192ECD90023EB61 /* AppDelegate.m */,
 				BFB80C6D2192ECD90023EB61 /* ViewController.h */,
 				BFB80C6E2192ECD90023EB61 /* ViewController.m */,
+				BFB80C9C2192EE0F0023EB61 /* Controllers */,
 				BFB80C702192ECD90023EB61 /* Main.storyboard */,
 				BFB80C732192ECDB0023EB61 /* Assets.xcassets */,
 				BFB80C752192ECDB0023EB61 /* LaunchScreen.storyboard */,
@@ -130,6 +137,17 @@
 				BFB80C902192ECDB0023EB61 /* Info.plist */,
 			);
 			path = OpenGL_demoUITests;
+			sourceTree = "<group>";
+		};
+		BFB80C9C2192EE0F0023EB61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFB80C9D2192EE360023EB61 /* BaseController.h */,
+				BFB80C9E2192EE360023EB61 /* BaseController.m */,
+				BFB80CA02192EFB40023EB61 /* OneController.h */,
+				BFB80CA12192EFB40023EB61 /* OneController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +282,8 @@
 			files = (
 				BFB80C6F2192ECD90023EB61 /* ViewController.m in Sources */,
 				BFB80C7A2192ECDB0023EB61 /* main.m in Sources */,
+				BFB80C9F2192EE360023EB61 /* BaseController.m in Sources */,
+				BFB80CA22192EFB40023EB61 /* OneController.m in Sources */,
 				BFB80C6C2192ECD90023EB61 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
